@@ -29,8 +29,8 @@ Use the following GCP CloudShell tutorial, and follow the instructions.
 1. Clone the apigee-samples repo, and switch the deploy-apigee-proxy directory
 
 ```bash
-git clone https://github.com/GoogleCloudPlatform/apigee-samples.git
-cd apigee-samples/deploy-apigee-proxy
+git clone https://github.com/mohit1050/sample-apigee-proxy.git
+cd sample-apigee-proxy
 ```
 
 2. Edit the `env.sh` and configure the ENV vars

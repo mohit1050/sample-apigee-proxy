@@ -1,6 +1,7 @@
 # Sample to automate Apigee proxy deployments using Maven and Cloud Build
 
 ---
+
 This sample demonstrates how to use the [Apigee Maven deploy plugin](https://github.com/apigee/apigee-deploy-maven-plugin) to deploy a proxy to Apigee using Cloud Build
 
 Let's get started!
@@ -15,15 +16,9 @@ Ensure you have an active GCP account selected in the Cloud shell
 gcloud auth login
 ```
 
-Navigate to the 'deploy-apigee-proxy' directory in the Cloud shell.
-
-```sh
-cd deploy-apigee-proxy
-```
-
 Edit the provided sample `env.sh` file, and set the environment variables there.
 
-Click <walkthrough-editor-open-file filePath="deploy-apigee-proxy/env.sh">here</walkthrough-editor-open-file> to open the file in the editor
+Click <walkthrough-editor-open-file filePath="env.sh">here</walkthrough-editor-open-file> to open the file in the editor
 
 Then, source the `env.sh` file in the Cloud shell.
 
