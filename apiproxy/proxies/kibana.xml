@@ -11,17 +11,20 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
-<TargetEndpoint name="super-api">
+<ProxyEndpoint name="kibana">
   <PreFlow name="PreFlow">
     <Request/>
     <Response/>
-  </PreFlow>
+</PreFlow>
   <Flows/>
   <PostFlow name="PostFlow">
     <Request/>
     <Response/>
   </PostFlow>
-  <HTTPTargetConnection>
-    <URL>https://reqres.in/api/users?page=2</URL>
-  </HTTPTargetConnection>
-</TargetEndpoint>
+  <HTTPProxyConnection>
+    <BasePath>/kibana</BasePath>
+  </HTTPProxyConnection>
+  <RouteRule name="kibana">
+    <TargetEndpoint>kibana</TargetEndpoint>
+  </RouteRule>
+</ProxyEndpoint>

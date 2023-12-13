@@ -13,9 +13,47 @@
 <APIProxy name="sample-hello-cicd">
     <Description>A sample API proxy to demonstrate Apigee CI/CD using CloudBuild</Description>
 </APIProxy>
-<APIProxy name="super-api">
+
+<APIProxy name="webapp1">
     <Description>Hello automated apigee, from super api</Description>
 </APIProxy>
-<APIProxy name="microservices">
+
+<APIProxy name="webapp2">
     <Description>it works..</Description>
+</APIProxy>
+
+<APIProxy name="product">
+    <Description>it works..</Description>
+</APIProxy>
+
+<APIProxy name="shopping">
+    <Description>shopping</Description>
+</APIProxy>
+
+<APIProxy name="order">
+    <Description>order</Description>
+</APIProxy>
+
+<APIProxy name="shipping">
+    <Description>shipping</Description>
+</APIProxy>
+
+<APIProxy name="eurekaserver">
+    <Description>eurekaserver</Description>
+</APIProxy>
+
+<APIProxy name="kibana">
+    <Description>kibana</Description>
+</APIProxy>
+
+<APIProxy name="sonarqube">
+    <Description>sonarqube</Description>
+</APIProxy>
+
+<APIProxy name="grafana">
+    <Description>grafana</Description>
+</APIProxy>
+
+<APIProxy name="prometheus">
+    <Description>prometheus</Description>
 </APIProxy>

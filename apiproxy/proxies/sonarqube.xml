@@ -11,7 +11,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
-<ProxyEndpoint name="super-api">
+<ProxyEndpoint name="sonarqube">
   <PreFlow name="PreFlow">
     <Request/>
     <Response/>
@@ -22,9 +22,9 @@
     <Response/>
   </PostFlow>
   <HTTPProxyConnection>
-    <BasePath>/v1/samples/super-api</BasePath>
+    <BasePath>/sonarqube</BasePath>
   </HTTPProxyConnection>
-  <RouteRule name="super-api">
-    <TargetEndpoint>super-api</TargetEndpoint>
+  <RouteRule name="sonarqube">
+    <TargetEndpoint>sonarqube</TargetEndpoint>
   </RouteRule>
 </ProxyEndpoint>
