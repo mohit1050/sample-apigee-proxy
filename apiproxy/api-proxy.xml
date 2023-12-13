@@ -11,19 +11,19 @@
  limitations under the License.
 -->
 <APIProxy name="sample-hello-cicd">
-    <Description>A sample API proxy to demonstrate Apigee CI/CD using CloudBuild</Description>
+    <Description>sample API proxy to demonstrate Apigee using CloudBuild</Description>
 </APIProxy>
 
 <APIProxy name="webapp1">
-    <Description>Hello automated apigee, from super api</Description>
+    <Description>webapp1</Description>
 </APIProxy>
 
 <APIProxy name="webapp2">
-    <Description>it works..</Description>
+    <Description>webapp2</Description>
 </APIProxy>
 
 <APIProxy name="product">
-    <Description>it works..</Description>
+    <Description>product</Description>
 </APIProxy>
 
 <APIProxy name="shopping">
